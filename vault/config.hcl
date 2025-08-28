@@ -1,0 +1,11 @@
+# Use in-memory storage for local development
+storage "file" {
+  path = "./vault/data"
+}
+
+listener "tcp" {
+  address     = "127.0.0.1:8200"
+  tls_disable = 1
+}
+
+ui = true
