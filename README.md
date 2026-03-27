@@ -1,4 +1,4 @@
-# Vault Local Project
+# Implementing HashiCorp Vault for Dynamic Secret Management and PKI in Cloud-Native Environments
 
 This project demonstrates **local secret management** using **HashiCorp Vault** and a Python application.  
 It allows you to **securely store and retrieve sensitive information**, such as credentials, entirely locally.  
